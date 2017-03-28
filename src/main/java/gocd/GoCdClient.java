@@ -23,7 +23,6 @@ import java.util.List;
 import java.util.Map;
 
 public class GoCdClient {
-    // https://gocd-pe.gamesys.co.uk/go/api/pipelines/RGP-configuration/history/
     private HttpHost targetHost;
     private HttpClientContext context;
     private CloseableHttpClient client;
