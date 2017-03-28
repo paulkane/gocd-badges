@@ -1,0 +1,6 @@
+packaging:
+  add:
+    - target/${project.build.finalName}.jar
+ports:
+- 8080
+tag: ${docker.server.tag}
